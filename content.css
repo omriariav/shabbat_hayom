@@ -1,0 +1,24 @@
+.shabbat_main {
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    direction: rtl;
+    display: none;
+    right:35%;
+    position:fixed;
+    top:30%;
+    z-index: 200;
+}
+
+.shabbat_bg {
+    cursor: pointer;
+    background:#e4e4e4;
+    height:110%;
+    width:110%;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0.9;
+    overflow:hidden;
+    z-index:199;
+    display:none;
+}
